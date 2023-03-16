@@ -1,0 +1,38 @@
+:root {
+  --main-text-color: #111;
+  --second-text-color: #fff;
+  --main-background-color: #fafafa;
+  --second-background-color: #1e1823;
+  --main-accent-color: #fd9222;
+  --second-accent-color: #fcf1e0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--main-text-color);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 365px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 734px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1166px;
+  }
+}
